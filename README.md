@@ -15,5 +15,8 @@ The Gazettes are a useful reference for the latest patents. However, each Gazett
 
 This repository uses [ziplib](https://github.com/frk1/ziplib/tree/master?tab=readme-ov-file) (originally on [bitbucket](https://bitbucket.org/wbenny/ziplib)) to directly transform an input Gazette zip to a file of Tab Separated Values or TSV file.
 
+---
+### Versions
 
+**24.02** : Generate a TSV that consists only of the number, title, inventor(s) and assignment. Example result as [zipped](https://github.com/NMoroney/Patent-Gazette-to-TSV/blob/main/e-OG20240206_1519-1_ntia.tsv.zip). This reduces the number of files from +22,000 to a single file. In addition, the zipped file is ~0.5 MB while the original gazette zip is 220 MB.
 
