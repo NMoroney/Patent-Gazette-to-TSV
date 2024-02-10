@@ -3,6 +3,12 @@
 
 Directly transform USPTO Patent Gazettes as .zip file to a TSV file
 
+| Gazette Zip | | As TSV |
+| --- | --- | --- |
+| <img src="images/patent_gazette_as_html.jpg" width=300px> | <img src="images/arrow_128.png" width=32px> | <img src="images/patent_gazette_as_tsv.jpg" width=300px> |
+| +20,000 files uncompressed | | 1 file uncompressed |
+| +200 MB compressed | | 0.5 MB compressed <br>*Numbers, Titles, Inventor(s) and Assignment* |
+
 ---
 
 The USPTO Patent Gazettes can be downloaded as a .zip file from [this website](https://developer.uspto.gov/product/patent-official-gazettes-listing).
