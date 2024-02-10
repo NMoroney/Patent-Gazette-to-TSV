@@ -1,4 +1,5 @@
-# [2402]
+# © 2024 : github.com/NMoroney
+# MIT License 
 #
 
 #
