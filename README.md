@@ -15,6 +15,8 @@ The Gazettes are a useful reference for the latest patents. However, each Gazett
 
 This repository uses [ziplib](https://github.com/frk1/ziplib/tree/master?tab=readme-ov-file) (originally on [bitbucket](https://bitbucket.org/wbenny/ziplib)) to directly transform an input Gazette zip directly to a file of Tab Separated Values or TSV file.
 
+The first six [Gazettes of 2024](2024/) consist of about 50,000 patents and a combined size of 3.6 MB.
+
 ---
 ### Versions
 
