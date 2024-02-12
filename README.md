@@ -19,7 +19,7 @@ The Gazettes are described by the USPTO as :
 
 The Gazettes are a useful reference for the latest patents. However, each Gazette is rather sizeable and mixture of different file formats. The Feb 6, 2024 Gazette is over 200 MB in size and decompressed consists of over 20,000 individual files. This data has hundreds of thousands of commas (to be escaped for CSV formatting) and no tabs so [TSV](https://github.com/eBay/tsv-utils/blob/master/docs/comparing-tsv-and-csv.md) was used.
 
-This repository uses [ziplib](https://github.com/frk1/ziplib/tree/master?tab=readme-ov-file) (originally on [bitbucket](https://bitbucket.org/wbenny/ziplib)) to directly transform an input Gazette zip directly to a file of Tab Separated Values or TSV file.
+This repository uses [ziplib](https://github.com/frk1/ziplib/tree/master?tab=readme-ov-file) (originally on [bitbucket](https://bitbucket.org/wbenny/ziplib)) to directly transform an input Gazette zip directly to a file of Tab Separated Values or TSV file. Selective in-memory decompression is currently faster than downloading the corresponding Gazette *.zip and comparable to deleting +20,000 files via Sonoma (14.2.1).
 
 The first six [Gazettes of 2024](2024/) consist of about 50,000 patents and a combined size of 3.6 MB. The last [two months of 2023](2023/) have combined size of 4.4 MB.
 
