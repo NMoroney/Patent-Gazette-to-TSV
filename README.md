@@ -3,7 +3,7 @@
 
 Directly transform USPTO Patent Gazettes as .zip file to a TSV file
 
-| Gazette Zip | | As TSV |
+| Patent Gazette [(Zip)](https://developer.uspto.gov/product/patent-official-gazettes-listing) | to | [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) |
 | --- | --- | --- |
 | <img src="images/patent_gazette_as_html.jpg" width=300px> | <img src="images/arrow_128.png" width=32px> | <img src="images/patent_gazette_as_tsv.jpg" width=300px> |
 | +20,000 files uncompressed | | 1 file uncompressed |
@@ -17,11 +17,11 @@ The Gazettes are described by the USPTO as :
 
 > Published each Tuesday, the Patent Official Gazette contains bibliographic (front page) information, a representative claim, and a drawing (if applicable) of each patent grant issued that week. Includes U.S. Patent and Trademark Office (USPTO) Notices which provide important information and changes in rules concerning both patents and trademarks.
 
-The Gazettes are a useful reference for the latest patents. However, each Gazette is rather sizeable and mixture of different file formats. The Feb 6, 2024 Gazette is over 200 MB in size and decompressed consists of over 20,000 individual files.
+The Gazettes are a useful reference for the latest patents. However, each Gazette is rather sizeable and mixture of different file formats. The Feb 6, 2024 Gazette is over 200 MB in size and decompressed consists of over 20,000 individual files. This data has hundreds of thousands of commas (to be escaped for CSV formatting) and no tabs so [TSV](https://github.com/eBay/tsv-utils/blob/master/docs/comparing-tsv-and-csv.md) was used.
 
 This repository uses [ziplib](https://github.com/frk1/ziplib/tree/master?tab=readme-ov-file) (originally on [bitbucket](https://bitbucket.org/wbenny/ziplib)) to directly transform an input Gazette zip directly to a file of Tab Separated Values or TSV file.
 
-The first six [Gazettes of 2024](2024/) consist of about 50,000 patents and a combined size of 3.6 MB.
+The first six [Gazettes of 2024](2024/) consist of about 50,000 patents and a combined size of 3.6 MB. The last [two months of 2023](2023/) have combined size of 4.4 MB.
 
 ---
 ### Versions
