@@ -17,6 +17,4 @@ From the uncompressed TSV files, command line queries like the following can be 
 ```
 
 So there were -786 more blockchain patents than color patents in 2023.
-
-* https://depth-anything.github.io
   
