@@ -7,3 +7,6 @@ The earliest gazette available is from 2002. The current code parses the HTML fi
 
 The plot below shows the number of patents for the first gazette of the year from 2005 to 2024.
 
+<img src="2005-2024-number_patents_1st_gazette_of_year.png">
+
+The x-axis above is the year and the y-axis is number patents issued that week.
