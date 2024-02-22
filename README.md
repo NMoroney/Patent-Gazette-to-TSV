@@ -21,7 +21,7 @@ The Gazettes are a useful reference for the latest patents. However, each Gazett
 
 This repository uses [ziplib](https://github.com/frk1/ziplib/tree/master?tab=readme-ov-file) (originally on [bitbucket](https://bitbucket.org/wbenny/ziplib)) to transform an input Gazette *.zip directly to a file of Tab Separated Values or TSV file. Selective in-memory decompression is currently faster than downloading the corresponding Gazette *.zip and comparable to deleting +20,000 files via Sonoma (14.2.1).
 
-The first six [Gazettes of 2024](2024/) consist of about 50,000 patents and a combined size of 3.6 MB. The last [two months of 2023](2023/) have combined size of 4.4 MB.
+The first 6 [Gazettes of 2024](2024/) consist of about 50,000 patents and a combined size of 3.6 MB. The 52 [Patent Gazettes of 2023](2023/) consists of 353,473 patents and a combined zipped size of 27 MB. The current version will process zipped Patent Gazettes going [back to 2005](sample_2005-2024/).
 
 ---
 ### Versions
